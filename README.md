@@ -136,19 +136,19 @@ Le fichier de configuration (`tailwind.config.js`) inclut :
 
 ## Roadmap
 
-### Phase 1 (Q1 2024)
+### Phase 1 (Q1 2025)
 - [x] Structure de base
 - [x] Composants UI essentiels
 - [ ] Authentification
 - [ ] CMS de base
 
-### Phase 2 (Q2 2024)
+### Phase 2 (Q2 2025)
 - [ ] Blog complet
 - [ ] Intégration LinkedIn
 - [ ] Analytics
 - [ ] SEO
 
-### Phase 3 (Q3 2024)
+### Phase 3 (Q3 2025)
 - [ ] Espace client
 - [ ] Gestion de documents
 - [ ] Chat en direct
