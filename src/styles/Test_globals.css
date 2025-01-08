@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #002147;
+  --secondary: #405975;
+}
+
+@layer base {
+  body {
+    @apply antialiased text-gray-800;
+  }
+  
+  h1, h2, h3, h4 {
+    @apply font-condensed text-primary;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary text-white px-6 py-2 rounded hover:bg-primary-light transition-colors;
+  }
+  
+  .container {
+    @apply px-4 mx-auto max-w-7xl;
+  }
+  
+  .card {
+    @apply bg-white rounded-lg shadow-md p-6;
+  }
+  
+  .input {
+    @apply w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary focus:border-transparent;
+  }
+}
+
+/* Custom animations */
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 300ms ease-in;
+}
+
+/* Service card animations */
+.service-card {
+  @apply transition-all duration-300;
+}
+.service-card:hover {
+  @apply transform -translate-y-1 shadow-lg;
+}
