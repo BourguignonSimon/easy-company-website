@@ -74,6 +74,36 @@ npm run dev
 - **CMS** : Strapi (à venir)
 - **Analytics** : Google Analytics (à venir)
 
+## Roadmap
+
+### Phase 1 (Q1 2025)
+- [x] Structure de base du site
+- [x] Composants UI essentiels
+- [ ] Authentification
+- [ ] CMS de base
+- [ ] Intégration initiale LinkedIn
+
+### Phase 2 (Q2 2025)
+- [ ] Blog complet
+- [ ] Système de newsletter
+- [ ] Analytics avancés
+- [ ] SEO optimisation
+- [ ] Mode sombre/clair
+
+### Phase 3 (Q3 2025)
+- [ ] Espace client sécurisé
+- [ ] Système de gestion documentaire
+- [ ] Chat en direct
+- [ ] Système de notifications
+- [ ] API Rest complète
+
+### Phase 4 (Q4 2025)
+- [ ] Applications mobiles
+- [ ] Tableau de bord avancé
+- [ ] Internationalisation complète
+- [ ] Intégration IA pour le support
+- [ ] Performance optimisation
+
 ## Arborescence des Fichiers
 
 ```
@@ -134,22 +164,8 @@ Le fichier de configuration (`tailwind.config.js`) inclut :
 3. Poussez vers la branche (`git push origin feature/nouvelle-fonctionnalite`)
 4. Créez une Pull Request
 
-## Roadmap
+## Status des Versions
 
-### Phase 1 (Q1 2025)
-- [x] Structure de base
-- [x] Composants UI essentiels
-- [ ] Authentification
-- [ ] CMS de base
-
-### Phase 2 (Q2 2025)
-- [ ] Blog complet
-- [ ] Intégration LinkedIn
-- [ ] Analytics
-- [ ] SEO
-
-### Phase 3 (Q3 2025)
-- [ ] Espace client
-- [ ] Gestion de documents
-- [ ] Chat en direct
-- [ ] Système de notifications
+- **Version actuelle** : 0.1.0 (Janvier 2025)
+- **Prochaine version** : 0.2.0 (Mars 2025)
+- **Version stable prévue** : 1.0.0 (Juin 2025)
